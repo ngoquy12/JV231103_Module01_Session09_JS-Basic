@@ -1,0 +1,18 @@
+- Trong Javascript có 3 cách khai báo biến
+  + Sử dụng từ khóa var
+    - Có thể khai báo và gán lại giá trị
+    - Có cơ chế hosting (cẩu lên): Khi một file .js được thực thi thì code sẽ được chạy theo chiều từ trên
+    xuống dưới, khi đó nó sẽ quét file .js đó xem có biến nào được khai báo với từ khóa var không.
+    Nếu có thì nó sẽ đưa phần khai báo đấy lên trên đầu. Tuy nhiên, giá trị mà biến đấy nhận được lại 
+    undefined
+    - Phạm vi hoạt động của var là toàn cục
+
+  + Sử dụng từ khóa let
+    - Có thể gán lại giá trị, tuy nhiên không thể khai báo lại
+    
+  + Sử dụng từ khóa const
+    - Không thể gán lại giá trị và khai báo lại
+    - Không chưa context (bổ từ khóa this)
+
+- Toán tủ 3 ngôi
+   + Cú pháp: (điều_kiện) ? (giá trị đúng) : (giá trị sai)
